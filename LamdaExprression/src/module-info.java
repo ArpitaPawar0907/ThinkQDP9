@@ -1,0 +1,2 @@
+module LamdaExprression {
+}
