@@ -7,7 +7,7 @@ public class FailFastIterator {
 
 	public static void main(String[] args) {
 	
-		Vector<Integer> num=new Vector<>(5);
+		Vector<Integer> num=new Vector<>();
 		
 		num.add(1);
 		num.add(2);
