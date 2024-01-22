@@ -12,24 +12,24 @@ public class DivideStringEqualhash {
 		if(len%noOfC!=0)
 		{
 			int x=len-(len%noOfC);
-			
-			for(int i=0;i<x;i++)
+		
+			for(int i=0;i<x/5;i++)
 			{
 				s=s.concat("#");
 			}
 			
 	
 		}
-		// System.out.println(s);
-		len=s.length();
+		 System.out.println(s);
+		int l2=s.length();
 		
-			int n=len/noOfC;
+			int n=l2/noOfC;
 			String splstr[]=new String[n];
 			
 			int index=0;
 			for(int i=0;i<s.length();i+=noOfC)
 			{
-				splstr[index]=s.substring(i,i+noOfC);
+				splstr[index]=s.substring(i,i+noOfC-3);
 				index++;
 			}
 			System.out.println(Arrays.toString(splstr));
